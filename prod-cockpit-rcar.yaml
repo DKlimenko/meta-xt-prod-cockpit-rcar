@@ -41,7 +41,7 @@ common_data:
       url: "https://github.com/xen-troops/meta-xt-rcar.git"
       rev: da9485c357b041f5af6232e0a7f24bbbb3d72d56
     - type: git
-      url: "https://github.com/xen-troops/meta-xt-prod-cockpit-rcar.git"
+      url: "https://github.com/DKlimenko/meta-xt-prod-cockpit-rcar.git"
       rev: master
 
     # Common configuration options for all yocto-based domains
@@ -282,8 +282,8 @@ components:
     build-dir: "android"
     sources:
       - type: repo
-        url: "git@github.com:xen-troops/android_manifest.git"
-        rev: android-12-prod-cockpit-rcar-master
+        url: "git@github.com:DKlimenko/android_manifest.git"
+        rev: android-14
         manifest: doma.xml
         depth: 1
         groups: "%{XT_DOMA_SOURCE_GROUP}"
